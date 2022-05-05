@@ -1,6 +1,6 @@
 main() {
   const hour = DateTime.now().hour;
-  //const variables must be initialized with a constant value so we cannont invoke const to the hour because its not constant so the variable need to be var
+  // const variables must be initialized with a constant value so we cannont invoke const to the hour because its not constant so the variable need to be var
   // var hour = DateTime.now().hour;
   print(hour);
 }

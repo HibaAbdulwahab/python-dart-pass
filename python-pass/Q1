@@ -1,1 +1,12 @@
+def oddEven():
+    num = int(input('enter the number : '))
+    lis = []
 
+    for x in range(num):
+        lis.append(input("Input: "))
+        for n in lis:
+            if int(n) % 2 == 0:
+                print(n + " even ")
+            else:
+                print(n + " odd")
+oddEven()
