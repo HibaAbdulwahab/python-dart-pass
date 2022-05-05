@@ -1,0 +1,30 @@
+class Animal {
+  void printName(name) {
+    print('name of the animal is : ' + name);
+  }
+  
+  void printSound(sound){
+    print('the sound of the animal is : ' + sound);
+  }
+}
+
+class Dog extends Animal{
+  
+}
+class Cat extends Animal{
+  
+}
+class Cow extends Animal{
+  
+}
+
+
+main() {
+  var animal = Animal();
+  var dog = Dog();
+  var cat = Cat();
+  var cow = Cow();
+  animal.printName('dog');
+  animal.printSound('bark');
+  dog.printSound('bark');
+}
